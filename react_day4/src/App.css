@@ -182,6 +182,7 @@
     border-right-color: var(--border);
   }
 } */
+ 
 body{
   background-color: #10131c;
 }
@@ -266,3 +267,16 @@ button:hover{
   transform: scale(1.08);
 }
 
+.api-status {
+  text-align: center;
+  margin: 15px;
+  color: white;
+}
+
+.success {
+  color: #00e676;
+}
+
+.error {
+  color: #ff4d4d;
+}
